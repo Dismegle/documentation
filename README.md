@@ -47,13 +47,19 @@ The bot provides several commands to facilitate moderation tasks. Here are the a
 The bot includes flagging functionality to help identify problematic behavior. Here's how it works:
 
 When a member uses a flagged keyword, it will appear in the #flagged-logs channel. Admins can then use the menu options to either assign a punishment or mark it as reviewed.
+
 Punishments marked with the hammer emoji will result in an immediate ban, while those marked with the warning emoji will issue a warning before taking further action. If a user has multiple offenses for the same reason, they will be banned to maintain quality control.
-Moderators can review flagged chats by using the /flag command. This command removes the member from the chat, allowing mods to read the conversation and identify any issues. Punishments can be assigned using /inf add accordingly.
-If a flag appears to be without valid reason, the punishment reason "False Flag" can be used.
+
+Users can also submit reports by using the `/flag` command in their chat. This command removes all members from the thread, allowing mods to read the conversation and identify any issues. 
+
+Punishments can then be assigned using `/inf add` accordingly.
+
+If a flag appears to be without valid reason, the punishment reason "False Flag" should be used.
+
 Once the flagged chat has been handled, moderators should close the thread using the "Close Thread" button to remove it from the channel list. The flagged chat will be archived indefinitely for future reference unless manually deleted.
 
 
 # Conclusion
-We hope this documentation provides you with a clear understanding of the bot's behavior and features. If you have any further questions or require assistance, please don't hesitate to reach out to our support team.
+We hope this documentation provides you with a clear understanding of the bot's behavior and features. If you have any further questions or require assistance, please don't hesitate to reach out to our team directly through DMs or through our [official server](https://discord.gg/dismegle).
 
-Thank you for using our Discord bot!
+Thank you for using our Discord bot! We are thrilled bring our feature to your community!
