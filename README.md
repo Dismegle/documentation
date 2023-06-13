@@ -9,7 +9,6 @@ Private Chats:
 
 Group Chats:
 - Users will be matched with other participants if they haven't interacted with more than half of the users in the group.
-- Mutual roles do not influence the matching process in any way.
 
 # VC Button Spam
 To maintain a smooth user experience, the bot has implemented a timeout mechanism for users who spam the voice channel (VC) buttons excessively. The timeout period is set to 5 minutes, triggered when a user joins a voice channel five or more times within a span of less than 10 seconds.
