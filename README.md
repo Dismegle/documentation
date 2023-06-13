@@ -28,10 +28,20 @@ However, it is recommended to keep the message short and sweet, with an emphasis
 The bot provides several commands to facilitate moderation tasks. Here are the available commands:
 
 `/inf add @user <reason>`: Adds an infraction for a specific user, providing a reason for the infraction.
+
 `/inf list @user`: Lists all infractions for a given user.
+
 `/inf delete`: Deletes an infraction.
+
 `/history @user`: Displays the chat history of a user, showing who they have interacted with.
+
 `/current`: Shows the list of active chats.
+
+`/stats members`: View statistics about member growth.
+
+`/stats chats`: View statistics about chat activity.
+
+`/stats waiting`: View statistics about wait times.
   
 # Flagging
 The bot includes flagging functionality to help identify problematic behavior. Here's how it works:
